@@ -12,7 +12,7 @@ router.get('/getCondition', function(req, res, next) {
 
 /* 파라미터가 있는 SELECT 문 REST처리 */
 router.get('/getNonCondition', function(req, res, next) {
-    pgInstance.query(['SELECT name from users'], res);
+    pgInstance.query(['INSERT into users values (\'aa\')'], res);
 });
 
 module.exports = router;
