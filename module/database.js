@@ -55,7 +55,6 @@ pgInstance.prototype.query = function(queryDatas, res) {
           //output: 1
         });
       }
-
   });
 }
 
